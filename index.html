@@ -14,9 +14,34 @@
         <input type="text" name="name" id="name" class="input-field" placeholder="Enter your name">
         <label for="email" class="label">Email address</label>
         <input type="email" name="email" id="email" class="input-field" placeholder="Enter your email">
+        <label for="number" class="label">Phone number</label>
+        <input type="number" name="number" id="number" class="input-field" placeholder="Enter your phone number">
+        <div class="select-wrapper">
+            <label for="select" class="label">What does your question concern?</label>
+            <i class="question-type" aria-hidden="true"></i>
+            <select name="inquiry" class="select" id="select">
+                <option value="reservations">Reservations</option>
+                <option value="events">Events</option>
+                <option value="complaints">Complaints</option>
+                <option value="other">Other questions</option>
 
-        <button type="submit">Submit</button>
-        <textarea name="" id="" cols="" rows=""
+
+            </select>
+
+
+
+
+        </div>
+
+        <div class="checkbox-container">
+            <label class="checkbox-label">
+                <input type="checkbox" checked>
+            <span class="checkbox-custom rectangular"></span>
+            <div class="input-title">I want to recieve information about upcoming events!</div>
+            </label>
+        </div>
+        <textarea name="" id="" cols="" rows=""></textarea>
+        <button type="submit">Submit</button> 
 
 
     </form>
